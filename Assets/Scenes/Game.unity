@@ -448,37 +448,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574249633}
   m_CullTransparentMesh: 0
---- !u!1 &711041030 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1376968326978516798, guid: b96217cb0cf710b4696c45fe8a3e8486,
-    type: 3}
-  m_PrefabInstance: {fileID: 1376968327421040440}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &711041032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1376968326978516784, guid: b96217cb0cf710b4696c45fe8a3e8486,
     type: 3}
   m_PrefabInstance: {fileID: 1376968327421040440}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &711041036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711041030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d75db7282263d614982a74ca427d09ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 14
-  accel: 6
-  isJumping: 0
-  jumpSpeed: 8
-  jumpDurationThreshold: 0.25
-  airAccel: 3
-  jump: 14
 --- !u!1001 &1153446818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1090,11 +1065,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1376968326978516786, guid: b96217cb0cf710b4696c45fe8a3e8486,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1376968326978516798, guid: b96217cb0cf710b4696c45fe8a3e8486,
         type: 3}
