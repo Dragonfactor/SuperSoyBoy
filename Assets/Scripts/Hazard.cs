@@ -43,6 +43,7 @@ public class Hazard : MonoBehaviour
             
             Destroy(coll.gameObject);
         }
+        GameManager.instance.RestartLevel(1.25f);
     }
 
 }
